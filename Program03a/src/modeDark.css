@@ -1,0 +1,46 @@
+.root {
+  -fx-font-family: sans-serif;	
+  -fx-font-size : 14pt;
+  -fx-background-color: black; 
+//  -fx-background-color: #FF8811; 
+//  -fx-background-color: rgb(255, 0, 0); 
+}
+
+.label {
+  -fx-text-fill : red;	
+}
+
+.label-title {
+  -fx-font-size : 14pt;
+  -fx-text-fill : red;	
+}
+
+.label-input {
+  -fx-font-size : 16pt;
+  -fx-pref-width : 250px;
+  -fx-font-weight : bold;	
+}
+
+#label-output {
+  -fx-font-size : 20pt;
+  -fx-font-weight : normal;
+  -fx-text-fill : rgb(244, 244, 244);
+  -fx-background-color : rgb(50, 50, 50);
+}
+
+#label-error {
+  -fx-text-fill : white;
+  -fx-background-color : red;
+}
+
+// applies to any TextField
+.text-field {
+  -fx-font-size : 16pt;
+  -fx-pref-width : 250px;
+}
+
+.button {
+  -fx-font-size : 20pt;
+  -fx-font-weight : bold;
+}
+
